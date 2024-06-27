@@ -1,5 +1,11 @@
+import LiveChart from "./components/LiveChart";
+
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <LiveChart />
+    </div>
+  );
 }
 
 export default App;
