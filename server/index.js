@@ -14,7 +14,7 @@ const broadcast = function (connection) {
 
 wsServer.on("connection", (connection) => {
   broadcast(connection);
-  setInterval(broadcast, 5000, connection);
+  setInterval(broadcast, 3000, connection);
 });
 
 server.listen(PORT, () => {
