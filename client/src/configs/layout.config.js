@@ -8,7 +8,7 @@ const layout = {
     },
   },
   width: 1200,
-  height: 800,
+  height: 600,
   paper_bgcolor: "#aaaad8",
   plot_bgcolor: "#aaff8f",
   font: {
